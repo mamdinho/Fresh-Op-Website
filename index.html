@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service For You</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Service For You</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero"
+        style="background-image: url('https://mypublic-bucket.s3.ca-central-1.amazonaws.com/property.png');">
+        <div class="container">
+            <h2>Empowering Property Owners and Content Creators</h2>
+            <p>Your go-to solution for video editing, property management, and tenant services.</p>
+            <br/>
+            <a href="#services" class="cta">Learn More</a>
+        </div>
+    </section>
+
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>We are a dedicated team offering expert video shooting, editing, and comprehensive property management
+            services. Our goal is to make your life easier, whether you’re a property owner or a content creator. With
+            years of experience, we deliver high-quality results and reliable service that you can trust.</p>
+
+        <!-- New Info Added -->
+       <!-- <div class="about-details">
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li><strong>Expertise:</strong> Our team brings years of experience in video production and property
+                    management, ensuring professional results every time.</li>
+                <li><strong>Customer-Centered:</strong> We focus on providing top-notch customer service, making sure
+                    every project meets your expectations.</li>
+                <li><strong>Transparency:</strong> No hidden fees or surprises – we value transparency in all our
+                    dealings.</li>
+                <li><strong>Efficiency:</strong> From video editing to tenant management, we work quickly and
+                    efficiently to meet deadlines without sacrificing quality.</li>
+            </ul>
+
+            <h3>Our Mission</h3>
+            <p>Our mission is to empower property owners and content creators with stress-free, high-quality services.
+                We take care of the details, so you can focus on what matters most to you. </p>
+        </div> -->
+    </div>
+</section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-card">
+                <div class="image-container">
+                    <img src="https://mypublic-bucket.s3.ca-central-1.amazonaws.com/videoShooting.webp" alt="Video Shooting and Editing">
+                </div>
+                <h3>Video Shooting/Editing Listings</h3>
+                <p>High-quality video production and editing for $150 per listing.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="image-container">
+                    <img src="https://mypublic-bucket.s3.ca-central-1.amazonaws.com/forRent.webp" alt="Property Management Service">
+                </div>
+                <h3>Property Management</h3>
+                <p>We handle everything from monthly rents, maintenance, repairs, and tenant communication.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="image-container">
+                    <img src="https://mypublic-bucket.s3.ca-central-1.amazonaws.com/tenantFinder.webp" alt="Tenant Finder Service">
+                </div>
+                <h3>Tenant Finder Service</h3>
+                <p>We find reliable tenants for your property and take a percentage of the rent or sale price.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="https://formspree.io/f/mqazoldp" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+    
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Service For You. All rights reserved. yourservicehelp2024@gmail.com</p>
+        </div>
+    </footer>
+</body>
+
+</html>
