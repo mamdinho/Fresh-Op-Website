@@ -71,7 +71,7 @@ header nav ul li a {
 
 /* Updated color for the hero paragraph text */
 .hero p {
-    color: white; /* "Healthy Meals, Delivered from Your Gym..." */
+    color: black; /* "Healthy Meals, Delivered from Your Gym..." */
     font-size: 1.3em;
     line-height: 1.6;
 }
