@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #333;
+    color: #c7b9b9;
     line-height: 1.6;
 }
 
@@ -32,7 +32,7 @@ p, label, input, textarea {
 
 header {
     background: #333;
-    color: rgb(192, 221, 23);
+    color: rgb(31, 35, 7);
     padding: 10px 0;
     text-align: center;
 }
@@ -48,7 +48,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: rgb(61, 63, 4);
+    color: white;
     text-decoration: none;
 }
 
