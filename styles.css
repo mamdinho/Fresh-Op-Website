@@ -23,7 +23,6 @@ p, label, input, textarea {
     font-weight: 400;
 }
 
-
 .container {
     width: 80%;
     margin: auto;
@@ -63,7 +62,21 @@ header nav ul li a {
     justify-content: center;
 }
 
+/* Updated color for the main hero heading */
+.hero h2 {
+    color: white; /* "Fresh-oP located at LA Fitness Appleby, Burlington" */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
 
+/* Updated color for the hero paragraph text */
+.hero p {
+    color: black; /* "Healthy Meals, Delivered from Your Gym..." */
+    font-size: 1.3em;
+    line-height: 1.6;
+}
+
+/* CTA button styling */
 .hero .cta {
     background: orange;
     color: white;
@@ -213,14 +226,12 @@ header nav ul li a {
     width: 20px; /* Space for the bullet */
 }
 
-
 .about-details ul li {
     font-size: 1.1em;
     margin-bottom: 10px;
     padding-left: 0; /* Ensures there's no extra padding on the left */
     text-align: left; /* Aligns text to the left */
 }
-
 
 .about-details ul li strong {
     color: #333;
@@ -230,7 +241,6 @@ header nav ul li a {
     font-size: 1.1em;
     line-height: 1.8;
 }
-
 
 footer {
     background: #333;
