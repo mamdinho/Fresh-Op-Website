@@ -32,7 +32,7 @@ p, label, input, textarea {
 
 header {
     background: #333;
-    color: white;
+    color: rgb(192, 221, 23);
     padding: 10px 0;
     text-align: center;
 }
@@ -48,7 +48,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: rgb(61, 63, 4);
     text-decoration: none;
 }
 
